@@ -1,4 +1,29 @@
+.navigate{
+    margin-top: 30px;
+    margin-right: 30px;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    gap:30px;
+    text-align: center;
+}
 
+.nav{
+    color:#383838;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+.nav:focus{
+       text-decoration:underline;
+    }
 
+.buttonExit{
+    padding: 10PX 20px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
 
 
