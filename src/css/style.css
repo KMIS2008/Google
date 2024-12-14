@@ -1,3 +1,14 @@
+html, body {
+    height: 100%; /* Устанавливаем высоту для всей страницы */
+    margin: 0; /* Убираем отступы */
+  }
+
+.wrapper{
+    position: relative;
+    min-height: 100%; 
+   
+}
+
 .navigate{
     margin-top: 30px;
     margin-right: 30px;
@@ -134,7 +145,6 @@
     padding: 10px;
     color:#585858;
     font-weight: bold;
-    /* background-color: rgb(176,176,176); */
     border-radius: 5px;
     border: none;
   }
@@ -145,4 +155,33 @@
     color:#585858;
     font-weight: bold;
     text-align: center;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+      background-color: rgb(240, 240, 240); 
+  }
+
+  .footer-text{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#585858;
+
+  }
+
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid #e3e1e1;
+  }
+
+  .footer-nav{
+    display: flex;
+    gap:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#585858;
   }
