@@ -1,0 +1,2 @@
+const e=document.querySelector(".g1"),t=document.querySelector(".o1"),o=document.querySelector(".o2"),n=document.querySelector(".g2"),c=document.querySelector(".l"),r=document.querySelector(".e");document.querySelector(".oddity").addEventListener("click",(u=>{e.textContent="O",t.textContent="d",o.textContent="d",n.textContent="i",c.textContent="t",r.textContent="y"}));
+//# sourceMappingURL=index.ea0bb56f.js.map

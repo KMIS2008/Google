@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".g1"),t=document.querySelector(".o1"),n=document.querySelector(".o2"),o=document.querySelector(".g2"),c=document.querySelector(".l"),r=document.querySelector(".e");document.querySelector(".oddity").addEventListener("click",(function(u){e.textContent="O",t.textContent="d",n.textContent="d",o.textContent="i",c.textContent="t",r.textContent="y"}))}();
+//# sourceMappingURL=index.b7acf621.js.map
