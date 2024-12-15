@@ -48,7 +48,7 @@ html, body {
     letter-spacing: -15px;
 }
 
-.g{
+.g1{
     color:#4285F4;
 }
 
@@ -60,6 +60,12 @@ html, body {
 }
 .l{
     color: #34A853;
+}
+.g2{
+  color:#4285F4;
+}
+.e{
+  color: #EA4335;
 }
 .search-form{
     display: flex;
