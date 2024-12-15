@@ -10,8 +10,8 @@ html, body {
 }
 
 .navigate{
-    margin-top: 30px;
-    margin-right: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
     display: flex; 
     justify-content: flex-end;
     align-items: center;
@@ -27,8 +27,12 @@ html, body {
     text-align: center;
 }
 .nav:hover{
-       text-decoration:underline;
+    text-decoration:underline;
     }
+
+.svgMenu:hover{
+  cursor: pointer;
+}
 
 .buttonExit{
     padding: 10PX 20px;
@@ -36,6 +40,12 @@ html, body {
     color: white;
     background-color: #4285F4;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonExit:hover{
+  background-color: #0c5ee1;
 }
 
 .logo{
@@ -84,6 +94,21 @@ html, body {
     border: 2px solid rgb(176,176,176);
     border-radius: 50px;
 }
+
+.input:hover{
+  border: 2px solid #4285F4;
+}
+
+
+.vertical-line{
+  position: absolute;
+  left: 60px;
+  top:20px;
+  height: 30px;
+  width: 2px;
+  background-color: #868080;
+}
+
 
 .svgSearch{
     position: absolute;
@@ -153,6 +178,12 @@ html, body {
     font-weight: bold;
     border-radius: 5px;
     border: none;
+
+    cursor: pointer;
+  }
+
+  .button-search:hover{
+    background-color:rgba(240, 240, 240, 0.585);
   }
 
   .text{
@@ -172,12 +203,12 @@ html, body {
   }
 
   .footer-text{
-    padding: 20px;
+    margin: 0;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 700;
     color:#585858;
-
   }
 
   .footer-box{
